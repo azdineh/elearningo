@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".SessionDetailStudentActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            android:padding="4dp"
+            android:text="Session :"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textview_session_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lightdegradian"
+            android:padding="4dp"
+            android:text="Session 3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textview_1" />
+
+        <TextView
+            android:id="@+id/textview_module_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lightdegradian"
+            android:padding="4dp"
+            android:text="Session 3"
+            app:layout_constraintTop_toBottomOf="@+id/textview123"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <TextView
+            android:id="@+id/textview123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="4dp"
+            android:text="Module :"
+            app:layout_constraintTop_toBottomOf="@+id/textview_session_name"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <TextView
+            android:id="@+id/textview765"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+
+            android:padding="4dp"
+            android:text="Documents"
+            app:layout_constraintTop_toBottomOf="@+id/textview_teachername"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textview_teachername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandouki Omar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textview_session_2" />
+
+        <TextView
+            android:id="@+id/textview_session_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Teacher :"
+            app:layout_constraintEnd_toStartOf="@+id/textview_teachername"
+            app:layout_constraintTop_toBottomOf="@+id/textview_module_name" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="TextView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="148dp" />
+
+        <ListView
+            android:id="@+id/listview3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/lightdegradian"
+            app:layout_constraintTop_toBottomOf="@+id/textview765"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textview_teacher_said"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Teacher said : (Description)"
+            app:layout_constraintTop_toBottomOf="@+id/listview3" />
+
+        <TextView
+            android:id="@+id/textview_teacher_speech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bglight"
+            android:hint="No description"
+            android:paddingTop="4dp"
+            android:paddingBottom="20dp"
+            android:text=""
+            app:layout_constraintTop_toBottomOf="@+id/textview_teacher_said"
+            tools:layout_editor_absoluteX="28dp" />
+
+        <Button
+            android:id="@+id/button_goToDescussion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingTop="16dp"
+            android:text="Go to discussion"
+            android:onClick="toDiscussion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview_teacher_speech" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</ScrollView>

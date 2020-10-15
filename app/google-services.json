@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "217612068213",
+    "firebase_url": "https://elearningo-d63c1.firebaseio.com",
+    "project_id": "elearningo-d63c1",
+    "storage_bucket": "elearningo-d63c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217612068213:android:2483091b6116a2afc01f3c",
+        "android_client_info": {
+          "package_name": "com.sim.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217612068213-ijjrtp6robg3c2hsumutuct8vh5q6uh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sim.elearning",
+            "certificate_hash": "254d31332559e7fa9474718812345dc40dbe6b4f"
+          }
+        },
+        {
+          "client_id": "217612068213-mmsvpa6u0a41utarj60gjcoh04sh8k42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChgq70LDjXATF9DligsMXwl53gU_6122Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217612068213-mmsvpa6u0a41utarj60gjcoh04sh8k42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
